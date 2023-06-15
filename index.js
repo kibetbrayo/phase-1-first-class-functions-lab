@@ -25,13 +25,3 @@ function selectDifferentDrivers(drivers, selectorFunction) {
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
-
-module.exports = {
-  returnFirstTwoDrivers,
-  returnLastTwoDrivers,
-  selectingDrivers,
-  createFareMultiplier,
-  fareDoubler,
-  fareTripler,
-  selectDifferentDrivers
-};
